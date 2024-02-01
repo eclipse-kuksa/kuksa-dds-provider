@@ -53,7 +53,7 @@ RUN staticx ddsprovider ddsprovider-exe
 # Runner stage, to copy in the virtual environment and the app
 FROM scratch
 
-LABEL org.opencontainers.image.source="https://github.com/eclipse/kuksa.val.feeders"
+LABEL org.opencontainers.image.source="https://github.com/eclipse-kuksa/kuksa-dds-provider"
 
 LABEL org.opencontainers.image.licenses="APACHE-2.0"
 
